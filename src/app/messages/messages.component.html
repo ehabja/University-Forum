@@ -1,0 +1,14 @@
+<table border="1" align="center">
+    <tr>
+        
+        <th>Title</th>
+        <th>Message</th>
+        <th>Date And Time</th>
+    </tr>
+    <tr *ngFor="let m of message">
+        
+        <td>{{m.title}}</td>
+        <td>{{m.message}}</td>
+        <td>{{m.time}}</td>
+    </tr>
+</table>
